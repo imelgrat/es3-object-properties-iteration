@@ -1,0 +1,22 @@
+{
+  "name": "es3-object-properties-iteration",
+  "version": "1.0.0",
+  "description": "Before ES6, the only way of iterating with an object's properties was the for...in loop. When you loop through an object with the for...in loop, you need to verify that the property belongs to the object (and is not inherited.). You can do this is by using hasOwnProperty.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "javascript",
+    "property iteration",
+    "iteration",
+    "property chain",
+    "inheritance"
+  ]
+}
